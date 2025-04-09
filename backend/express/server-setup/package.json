@@ -1,0 +1,31 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend savings webapp",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ndiritu-muriithi/bazuu-save.git"
+  },
+  "author": "Charles",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ndiritu-muriithi/bazuu-save/issues"
+  },
+  "homepage": "https://github.com/ndiritu-muriithi/bazuu-save#readme",
+  "dependencies": {
+    "ethers": "^6.13.5",
+    "express": "^4.18.2",
+    "dotenv": "^16.0.3",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
